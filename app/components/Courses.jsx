@@ -1,14 +1,14 @@
 import React from 'react';
 import Link from 'next/link';
 
-const fetchCourses = async () => {
-  const res = await fetch('http://localhost:3000/api/courses');
-  const courses = await res.json();
-  return courses;
-}
+// const fetchCourses = async () => {
+//   const res = await fetch('http://localhost:3000/api/courses');
+//   const courses = await res.json();
+//   return courses;
+// }
 
-const Courses = async () => {
-  const courses = await fetchCourses();
+const Courses = ({ courses }) => { // async removed
+  // const courses = await fetchCourses();
 
   return (
     <div className='courses'>
