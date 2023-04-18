@@ -14,7 +14,7 @@ This is a NextJS project for testing newer features such as:
 - loading.js Page
 - and more
 
-<img src="./public/screen.png" width="500">
+<img src="intro.gif" alt="NextJS Project">
 
 ## Usage
 
